@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body class="hola">
+    <header class="header">
+        <div class="header__support">
+            <img loading="lazy" class="header__icon" src="files/icon/auriculares-de-usuario.png" alt="contacto">
+            <p class="header__text">soporte al cliente <br>
+                +54 011-3765-9251
+            </p>
+        </div>
+        </div>
+        <div class="header__title">
+            <img loading="lazy" class="header__icon" src="files/icon/taza-caliente.png">
+            <h1>BARISTAS</h1>
+        </div>
+        <div class="header__user-shop">
+            <div class="header__interfaz">
+            <img loading="lazy" class="header__icon" src="files/icon/usuario.png" alt="usuario">
+            <p>usuario</p>
+            </div>
+            <div class="header__interfaz">
+                <img loading="lazy" class="header__icon" src="files/icon/bolsa-de-la-compra (1).png" alt="pedido">
+                <p>Carrito <br>
+                    (0)</p>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar">
+        <ul class="navbar__list">
+            <li class="navbar__item">
+                <a href="#">Inicio</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#">licuados</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#">expreso</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#">capuchino</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#">mas</a>
+            </li>
+        </ul>
+        <form class="navbar__form">
+            <input type="search" placeholder="buscar" class="navbar__search">
+            <button class="navbar__search-icon">
+                <img loading="lazy" src="files/icon/busqueda.png" alt="">
+            </button>
+        </form>
+    </nav>
+
+
+    <section class="banner">
+        <div class="cover"></div>
+        <div class="banner__container">
+            <p>cafe delicioso</p>
+            <h2>100% Natural <br>
+                cafe fresco
+            </h2>
+            <button>COMPRAR AHORA</button>
+        </div>
+    </section>
+
+    <section class="options">
+        <div class="options__container">
+            <div>
+                <img loading="lazy" src="files/icon/cartera.png" alt="">
+            </div>
+            <div>
+                <h4>Contrareembolsos</h4>
+                <p>100% garantia de devolucion de dinero</p>
+            </div>
+        </div>
+        <div class="options__container">
+            <div>
+                <img loading="lazy" src="files/icon/regalo.png" alt="">
+            </div>
+            <div>
+                <h4>Tarjeta Regalo especial</h4>
+                <p>Bonos de regalo al comprar con tarjeta </p>
+            </div>
+        </div>
+        <div class="options__container">
+            <div>
+                <img loading="lazy" src="files/icon/servicio-al-cliente.png" alt="">
+            </div>
+            <div>
+                <h4>Servicio al cliente 24/7</h4>
+                <p>Llamenos 24/7 al *54 011 3765-9251</p>
+            </div>
+        </div>
+        <div class="options__container">
+            <div>
+                <img loading="lazy" src="files/icon/ciclismo-montana.png" alt="">
+            </div>
+            <div>
+                <h4>envio gratuito a nivel nacional</h4>
+                <p>En pedidos superiores a 150$</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories">
+        <h2>Mejores Categorias</h2>
+        <div class="categories__container">
+            <div class="categories__1">
+                <div class="categories__cover"></div>
+                <h3>Jugos</h3>
+                <p>ver mas</p>
+            </div>
+
+            <div class="categories__2">
+                <div class="categories__cover"></div>
+                <h3>Capuccinos</h3>
+                <p>ver mas</p>
+            </div>
+
+            <div class="categories__3">
+                <div class="categories__cover"></div>
+                <h3>Cafe Latte</h3>
+                <p>ver mas</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="products-button">
+        <h2>Mejores Productos</h2>
+        <div class="products__button-container">
+            <button ID="active_button">destacados</button>
+            <button>Mas Recientes</button>
+            <button>Mas Vendidos</button>
+        </div>
+    </section>
+
+
+    <section class="product"><!--grilla------------------->
+        <!--producto 1------------------------------------->
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-green-tea-coffee-herbal-tea-drink-cup-of-green-tea-5a6fed22c06e62.9826042615172846427882.png" alt="">
+                <button class="product__like"><img loading="lazy"  src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Te Verde</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Te Traido directamente de Japon </p>
+            </div>
+        </div>
+
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-green-tea-coffee-white-tea-ginger-tea-lemon-tea-5a855e504c2291.2678281515186898723119.png" alt="">
+                <button class="product__like"><img loading="lazy"  src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Te de Limon</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Te de limon, hecho de limones 100% naturales</p>
+            </div>
+        </div>
+
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-orange-juice-pineapple-juice-smoothie-juice-lemonad-5b3817f0293618.1217279515304028001688.png" alt="">
+
+                <button class="product__like"><img loading="lazy"  src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Jugo de Piña</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Refrescante jugo de piña 100% natural</p>
+            </div>
+        </div>
+
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-white-coffee-cafe-espresso-coffee-cup-in-house-service-support-connect-vending-5c585866142f07.1161454115492936700827.png" alt="">
+                <button class="product__like"><img loading="lazy" src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Expresso</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Cafe hecho en nuestra tienda lo</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="galery">
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-bluerhinomedia-2788792.jpg"></img loading="lazy":src>
+    </div>
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-fotios-photos-1024359.jpg"></img loading="lazy">
+    </div>
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-fotios-photos-1855214 (1).jpg"></img loading="lazy">
+    </div>
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-shvets-2574474.jpg"></img loading="lazy">
+    </div>
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-shvets-2574489.jpg"></img loading="lazy">
+    </div>
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-tirachard-kumtanom-112571-601169.jpg"></img loading="lazy">
+    </div>
+    <div class="galery__item">
+        <img loading="lazy" src="files/reales/galeria/pexels-fotios-photos-1833320.jpg"></img loading="lazy">
+    </div>
+    </section>
+
+    <section class="products-button">
+        <h2>Nuevos Productos</h2>
+    </section>
+    <section class="product"><!--Nuevos Productos------------------->
+        <!--producto 1------------------------------------->
+        <div class="product__card"> <!--flex-->
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-green-tea-coffee-herbal-tea-drink-cup-of-green-tea-5a6fed22c06e62.9826042615172846427882.png" alt="">
+                <button class="product__like"><img loading="lazy"  src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Te Verde</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Te Traido directamente de Japon </p>
+            </div>
+        </div>
+
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-green-tea-coffee-white-tea-ginger-tea-lemon-tea-5a855e504c2291.2678281515186898723119.png" alt="">
+                <button class="product__like"><img loading="lazy"  src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Te de Limon</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Te de limon, hecho de limones 100% naturales</p>
+            </div>
+        </div>
+
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-orange-juice-pineapple-juice-smoothie-juice-lemonad-5b3817f0293618.1217279515304028001688.png" alt="">
+
+                <button class="product__like"><img loading="lazy"  src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Jugo de Piña</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Refrescante jugo de piña 100% natural</p>
+            </div>
+        </div>
+
+        <div class="product__card"> <!--flex-->
+
+            <div class="product__img loading="lazy"-container">
+                <img loading="lazy" class="product__img loading="lazy"" src="files/reales/productos/kisspng-white-coffee-cafe-espresso-coffee-cup-in-house-service-support-connect-vending-5c585866142f07.1161454115492936700827.png" alt="">
+                <button class="product__like"><img loading="lazy" src="files/icon/corazon.png">
+                </button>
+            </div>
+
+            <div class="product__text">
+                <h2>Expresso</h2>
+
+                <div class="star">
+                <img loading="lazy" class="star__img loading="lazy"" src="files/icon/estrella.png" alt="">
+                <p>4.5</p>
+                </div>
+
+                <p>Cafe hecho en nuestra tienda lo</p>
+            </div>
+        </div>
+
+    </section>
+        <div class="h2-blog">
+            <h2>Nuevos Blogs</h2>
+        </div>
+    <section class="blog">
+        <div class="blog__container">
+
+            <div>
+                <img src="files/reales/blog/pexels-chevanon-302902.jpg" alt="">
+            </div>
+            <div class="blog__text">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p class="date">29 de abril de 2024</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio, explicabo voluptate, numquam magnam obcaecati impedit, minus ipsam iure eius a ipsum. Est consectetur autem sit pariatur nisi quidem ad!</p>
+            </div>
+            <button>Leer mas</button>
+        </div>
+
+<div class="blog__container">
+            <div>
+                <img src="files/reales/blog/pexels-iain-1191393-2267899.jpg" alt="">
+            </div>
+            <div class="blog__text">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p class="date">5 de marzo de 2024</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sequi error neque, dignissimos nesciunt ad recusandae nemo alias aut illum non excepturi voluptatem officiis quo ab cumque, suscipit, vitae facere.</p>
+            </div>
+            <button>Leer mas</button>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+        <div class="footer__information">
+            <h4>Contact Info</h4>
+            <p>direccion</p>
+            <p>telefono</p>
+            <p>fax</p>
+            <p>email</p>
+            <div class="social">
+                <div>
+                <img src="files/icon/social/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png" alt="">
+                </div>
+                <div>
+                <img src="files/icon/social/kisspng-logo-sticker-decal-instagram-5abe0f7de2e651.5159206815224052459294.png" alt="">
+                </div>
+                <div>
+                <img src="files/icon/social/kisspng-social-media-marketing-business-social-network-5ac3a555eb4140.7140460115227712859636.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__information">
+            <h4>informacion</h4>
+            <p>acerca de nosotros</p>
+            <p>informacion delivery</p>
+            <p>politica de privacidad</p>
+            <p>terminos y condiciones</p>
+            <p>contactanos</p>
+        </div>
+
+        <div class="footer__information">
+            <h4>mi cuenta</h4>
+            <p>mi cuenta</p>
+            <p>historial de ordenes</p>
+            <p>lista de deseos</p>
+            <p>boletin</p>
+            <p>reembolsos</p>
+        </div>
+
+        <div class="footer__information">
+            <h4>Boletin Informativo</h4>
+            <p>Suscribe a nuestro boletins informativo, para estar al tanto de todas las novedades. Suscribete y mantente al dia con ofertas exclusivas</p>
+            <form action="">
+                <input type="email">
+                <button>SUSCRIBETE</button>
+            </form>
+        </div>
+        </div>
+        <div class="pagos">
+            <p>desarrollado por informacion para el mundo @2024</p>
+            <div>
+                <img src="files/icon/social/kisspng-mastercard-credit-card-american-express-visa-debit-mbna-5b0525b5c09758.1980606615270639897889.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
